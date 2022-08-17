@@ -1,7 +1,11 @@
-import React from 'react';
-
-export default function TodoList(){
-    return(
-        <p>this is the to do list</p>
-    );
+import React from "react";
+import Todo from "./Todo"
+export default function TodoList() {
+  return (
+    <>
+      <Todo />
+      <Todo />
+      <Todo /> 
+    </>
+  );
 }
